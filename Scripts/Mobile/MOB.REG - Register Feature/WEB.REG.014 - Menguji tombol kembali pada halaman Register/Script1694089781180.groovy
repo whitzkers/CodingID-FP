@@ -17,15 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('D:\\Users\\bsi80194\\Downloads\\DemoAppV2.apk', true)
+Mobile.callTestCase(findTestCase('Mobile/Reuse Test Case/Navigate to Register Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('btn_Login Here'), 0)
+Mobile.tap(findTestObject('Mobile/registerPage/btn_Back Register'), 0)
 
-Mobile.tap(findTestObject('btn_Register'), 0)
-
-Mobile.tap(findTestObject('Mobile_Register Page/btn_Back Register'), 0)
-
-Mobile.verifyElementText(findTestObject('txt_Sign In'), 'Sign In')
+Mobile.verifyElementText(findTestObject('Mobile/loginPage/header_SignIn'), 'Sign In')
 
 Mobile.closeApplication()
 
