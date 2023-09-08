@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('D:\\Users\\bsi80194\\Downloads\\DemoAppV2.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/btn_Login Here'), 0)
+Mobile.tap(findTestObject('Mobile/homePage/btn_NavLogin'), 0)
 
-Mobile.tap(findTestObject('Object Repository/btn_Register'), 0)
+Mobile.tap(findTestObject('Mobile/loginPage/lnk_Register'), 0)
 
-Mobile.getText(findTestObject('Object Repository/txt_New Account'), 0)
+Mobile.getText(findTestObject('Mobile/registerPage/txt_New Account'), 0)
 
 Mobile.closeApplication()
 
