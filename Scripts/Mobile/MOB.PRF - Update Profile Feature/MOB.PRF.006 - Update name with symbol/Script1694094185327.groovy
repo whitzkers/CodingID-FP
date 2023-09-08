@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.callTestCase(findTestCase('Reuse Test Case/User Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('profilePage/btn_SettingProfile'), 0)
+Mobile.tap(findTestObject('Mobile/profilePage/btn_SettingProfile'), 0)
 
-Mobile.tap(findTestObject('profilePage/btn_EditProfile'), 0)
+Mobile.tap(findTestObject('Mobile/profilePage/btn_EditProfile'), 0)
 
-Mobile.setText(findTestObject('profilePage/updateProfilePage/form_editFullName'), 'Solya.?!', 0)
+Mobile.setText(findTestObject('Mobile/profilePage/updateProfilePage/form_editFullName'), 'Solya.?!', 0)
 
-Mobile.verifyElementExist(findTestObject('profilePage/updateProfilePage/txt_ErrorName'), 0)
+Mobile.verifyElementExist(findTestObject('Mobile/profilePage/updateProfilePage/txt_ErrorName'), 0)
 
 Mobile.closeApplication()
 

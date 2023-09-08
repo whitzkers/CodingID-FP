@@ -19,19 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.callTestCase(findTestCase('Reuse Test Case/User Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('profilePage/btn_SettingProfile'), 0)
+Mobile.tap(findTestObject('Mobile/profilePage/btn_SettingProfile'), 0)
 
-Mobile.tap(findTestObject('profilePage/btn_EditProfile'), 0)
+Mobile.tap(findTestObject('Mobile/profilePage/btn_EditProfile'), 0)
 
-Mobile.setText(findTestObject('profilePage/updateProfilePage/form_editFullName'), 'Simanta Fulan', 0)
+Mobile.setText(findTestObject('Mobile/profilePage/updateProfilePage/form_editFullName'), 'Simanta Fulan', 0)
 
-Mobile.setText(findTestObject('profilePage/updateProfilePage/form_editPhone'), '12345678101', 0)
+Mobile.setText(findTestObject('Mobile/profilePage/updateProfilePage/form_editPhone'), '12345678101', 0)
 
-Mobile.tap(findTestObject('profilePage/updateProfilePage/btn_SaveChanges'), 0)
+Mobile.tap(findTestObject('Mobile/profilePage/updateProfilePage/btn_SaveChanges'), 0)
 
-Mobile.verifyElementText(findTestObject('profilePage/updateProfilePage/txt_SuccessUpdate'), 'Success')
+Mobile.verifyElementText(findTestObject('Mobile/profilePage/updateProfilePage/txt_SuccessUpdate'), 'Success')
 
-Mobile.tap(findTestObject('profilePage/updateProfilePage/btn_CancelUpdate'), 0)
+Mobile.tap(findTestObject('Mobile/profilePage/updateProfilePage/btn_CancelUpdate'), 0)
 
 Mobile.closeApplication()
 
