@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('D:\\Users\\bsi80196\\Downloads\\DemoAppV2.apk', false)
 
-Mobile.tap(findTestObject('homePage/btn_NavLogin'), 0)
+Mobile.tap(findTestObject('Mobile/homePage/btn_NavLogin'), 0)
 
-Mobile.setEncryptedText(findTestObject('loginPage/form_Password'), 'IhEUmmT335JN6dwVHkyXsg==', 0)
+Mobile.setEncryptedText(findTestObject('Mobile/loginPage/form_Password'), 'IhEUmmT335JN6dwVHkyXsg==', 0)
 
-Mobile.tap(findTestObject('loginPage/btn_VisiblePass'), 0)
+Mobile.tap(findTestObject('Mobile/loginPage/btn_VisiblePass'), 0)
 
-Mobile.getText(findTestObject('loginPage/form_Password'), 0)
+Mobile.getText(findTestObject('Mobile/loginPage/form_Password'), 0)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 

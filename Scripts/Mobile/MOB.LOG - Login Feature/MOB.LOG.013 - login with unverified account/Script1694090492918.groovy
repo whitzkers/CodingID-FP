@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('D:\\Users\\bsi80196\\Downloads\\DemoAppV2.apk', false)
 
-Mobile.tap(findTestObject('homePage/btn_NavLogin'), 0)
+Mobile.tap(findTestObject('Mobile/homePage/btn_NavLogin'), 0)
 
-Mobile.setText(findTestObject('loginPage/form_Email'), GlobalVariable.unverifEmail, GlobalVariable.unverifPass)
+Mobile.setText(findTestObject('Mobile/loginPage/form_Email'), GlobalVariable.unverifEmail, GlobalVariable.unverifPass)
 
-Mobile.setEncryptedText(findTestObject('loginPage/form_Password'), 'jlYWSi8mxv13dCRq/gql3A==', 0)
+Mobile.setEncryptedText(findTestObject('Mobile/loginPage/form_Password'), 'jlYWSi8mxv13dCRq/gql3A==', 0)
 
-Mobile.tap(findTestObject('loginPage/btn_Login'), 0)
+Mobile.tap(findTestObject('Mobile/loginPage/btn_Login'), 0)
 
-Mobile.verifyElementText(findTestObject('loginPage/txt_NotVerified'), 'Not Verified')
+Mobile.verifyElementText(findTestObject('Mobile/loginPage/txt_NotVerified'), 'Not Verified')
 
 Mobile.closeApplication()
 

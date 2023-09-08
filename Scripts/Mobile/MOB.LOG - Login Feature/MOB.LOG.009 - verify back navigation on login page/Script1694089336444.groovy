@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('D:\\Users\\bsi80196\\Downloads\\DemoAppV2.apk', false)
 
-Mobile.tap(findTestObject('homePage/btn_NavLogin'), 0)
+Mobile.tap(findTestObject('Mobile/homePage/btn_NavLogin'), 0)
 
-Mobile.verifyElementText(findTestObject('loginPage/header_SignIn'), 'Sign In')
+Mobile.verifyElementText(findTestObject('Mobile/loginPage/header_SignIn'), 'Sign In')
 
-Mobile.tap(findTestObject('loginPage/btn_NavBack'), 0)
+Mobile.tap(findTestObject('Mobile/loginPage/btn_NavBack'), 0)
 
-Mobile.verifyElementVisible(findTestObject('homePage/nav_Home'), 0)
+Mobile.verifyElementVisible(findTestObject('Mobile/homePage/nav_Home'), 0)
 
 Mobile.closeApplication()
 
