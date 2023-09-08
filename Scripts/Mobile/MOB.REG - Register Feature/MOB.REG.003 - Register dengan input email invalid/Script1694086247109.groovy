@@ -17,23 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('D:\\Users\\bsi80194\\Downloads\\DemoAppV2.apk', true)
+Mobile.callTestCase(findTestCase('Mobile/Reuse Test Case/Navigate to Register Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('btn_Login Here'), 0)
+Mobile.setText(findTestObject('Mobile/registerPage/form_Name'), 'John Doe', 0)
 
-Mobile.tap(findTestObject('btn_Register'), 0)
+Mobile.tap(findTestObject('Mobile/registerPage/btn_Calendar'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Mobile_Register Page/form_Name'), 'John Doe', 0)
+Mobile.tap(findTestObject('Mobile/registerPage/btn_CalendarDate'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile_Register Page/btn_Calendar'), 0)
+Mobile.tap(findTestObject('Mobile/registerPage/btn_CalendarOK'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile_Register Page/btn_CalendarDate'), 0)
+Mobile.setText(findTestObject('Mobile/registerPage/form_Email'), 'abc', 0)
 
-Mobile.tap(findTestObject('Object Repository/Mobile_Register Page/btn_CalendarOK'), 0)
-
-Mobile.setText(findTestObject('Object Repository/Mobile_Register Page/form_Email'), 'abc', 0)
-
-Mobile.verifyElementText(findTestObject('Mobile_Register Page/alert_Format email is not valid'), 'Format email is not valid')
+Mobile.verifyElementText(findTestObject('Mobile/registerPage/alert_Format email is not valid'), 'Format email is not valid')
 
 Mobile.closeApplication()
 
