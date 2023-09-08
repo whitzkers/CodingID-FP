@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WEB.REG.012 - Melakukan pengujian fitur lihat pada kolom Konfirmasi Kata Sandi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a04ad88a-cd54-493b-90d7-177cb8b28fa3</testCaseGuid>
+</TestCaseEntity>
