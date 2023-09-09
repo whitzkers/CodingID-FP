@@ -17,15 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Website/Reuse TC/Access to Register Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://demo-app.online/')
+WebUI.click(findTestObject('Website/registerPage/lnk_ke halaman login'))
 
-WebUI.click(findTestObject('Page_Coding.id - Halaman Utama/button_Buat                                _86b528'))
-
-WebUI.click(findTestObject('Page_Coding.ID - Register/Link_ke halaman login'))
-
-WebUI.verifyElementText(findTestObject('Page_Coding.id - Login/Word_Masuk'), 'Masuk')
+WebUI.verifyElementText(findTestObject('Website/loginPage/txt_Masuk'), 'Masuk')
 
 WebUI.closeBrowser()
 
