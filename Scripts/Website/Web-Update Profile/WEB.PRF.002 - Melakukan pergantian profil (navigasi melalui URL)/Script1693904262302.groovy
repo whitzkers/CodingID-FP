@@ -17,29 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Website/Reuse TC/Navigate to Update Profile page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://demo-app.online/')
+WebUI.setText(findTestObject('Website/updateProfilePage/form_Fullname'), 'New John')
 
-WebUI.click(findTestObject('Page_Coding.id - Halaman Utama/Link_Masuk'))
+WebUI.setText(findTestObject('Website/updateProfilePage/form_Phone'), '088877776666')
 
-WebUI.setText(findTestObject('Page_Coding.id - Login/input_Email'), 'rifkiauliairawan@gmail.com')
+WebUI.setText(findTestObject('Website/updateProfilePage/form_Birthday'), '18-Apr-1925')
 
-WebUI.setEncryptedText(findTestObject('Page_Coding.id - Login/input_Password'), 'JCmwKw2VXH/Exv650Bd5PA==')
+WebUI.click(findTestObject('Website/updateProfilePage/btn_Save Changes'))
 
-WebUI.click(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login'))
-
-WebUI.navigateToUrl('https://demo-app.online/dashboard/profile/edit')
-
-WebUI.setText(findTestObject('Page_Coding.ID - Update Profile/input_Fullname'), 'New John')
-
-WebUI.setText(findTestObject('Page_Coding.ID - Update Profile/input_Phone'), '088877776666')
-
-WebUI.setText(findTestObject('Page_Coding.ID - Update Profile/input_Birthday'), '18-Apr-1925')
-
-WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/button_Save Changes'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Coding.ID - Dashboard/div_Berhasil'), 'Berhasil')
+WebUI.verifyElementText(findTestObject('Website/updateProfilePage/txt_Berhasil'), 'Berhasil')
 
 WebUI.closeBrowser()
 
