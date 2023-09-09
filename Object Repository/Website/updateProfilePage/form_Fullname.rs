@@ -3,15 +3,15 @@
    <description></description>
    <name>form_Fullname</name>
    <tag></tag>
-   <elementGuidId>c1fe694d-04d9-46b5-8ff1-e3e409d20fbe</elementGuidId>
+   <elementGuidId>e3557d5b-54fc-4227-bc87-746b6baf5004</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.py-4</value>
+         <value>input[name=&quot;name&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div[3]/section/div/div/div/div/div/div/div/form/div[2]</value>
+         <value>//input[@name='name']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,171 +21,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>3f931759-8f41-42c4-8c84-4179a80a3277</webElementGuid>
+      <value>input</value>
+      <webElementGuid>1f7c8911-4519-48bd-abd5-b1a6183229fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>2be587a5-e887-4bb8-b027-1f0051219b4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>name</value>
+      <webElementGuid>96c38170-0056-42e3-b9fc-f0570b9cfc9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>py-4</value>
-      <webElementGuid>b71b1fe7-fd73-4645-9317-727127b17da8</webElementGuid>
+      <value>form-control </value>
+      <webElementGuid>13e78cba-3791-49cd-b313-7355283fcbb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>value</name>
       <type>Main</type>
-      <value>
-
-                                    
-                                        Fullname
-                                        
-                                        
-                                        
-
-                                    
-
-                                                                        
-                                        Email
-                                        
-                                        
-                                    
-                                    
-                                        Phone
-                                        
-                                        
-                                            
-
-                                    
-       
-                                    
-                                        BirthDay
-                                        
-                                        
-                                                                            
-                                    
-                                        
-                                        Cancel
-                                        Save Changes
-                                    
-
-
-
-                                </value>
-      <webElementGuid>71dd7541-a28f-40ae-bacc-e0c1b1793e6b</webElementGuid>
+      <value>New john</value>
+      <webElementGuid>47022156-065d-498d-8ee8-1858b61f38cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;main-wrapper main-wrapper-1&quot;]/div[@class=&quot;main-content&quot;]/section[@class=&quot;section&quot;]/div[@class=&quot;section-body&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col-12 col-md-12 col-lg-12&quot;]/div[@class=&quot;card author-box&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col-12 col-md-12 col-lg-6&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;py-4&quot;]</value>
-      <webElementGuid>0972fbbf-c1c2-4cba-a716-54689348e0f1</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-wrapper main-wrapper-1&quot;]/div[@class=&quot;main-content&quot;]/section[@class=&quot;section&quot;]/div[@class=&quot;section-body&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col-12 col-md-12 col-lg-12&quot;]/div[@class=&quot;card author-box&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col-12 col-md-12 col-lg-6&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;py-4&quot;]/div[@class=&quot;form-group&quot;]/input[@class=&quot;form-control&quot;]</value>
+      <webElementGuid>5d8b41da-89a6-4198-8cbc-0347e792623b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div[3]/section/div/div/div/div/div/div/div/form/div[2]</value>
-      <webElementGuid>9b2e5197-520b-4193-bbe8-015f2c4bbae8</webElementGuid>
+      <value>//input[@name='name']</value>
+      <webElementGuid>679bbce1-8a51-4930-91a1-6fabcb677952</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invoice'])[1]/following::div[10]</value>
-      <webElementGuid>ec10222d-3e11-44c9-88e7-2ff63fb21f53</webElementGuid>
+      <value>//div[@id='app']/div/div[3]/section/div/div/div/div/div/div/div/form/div[2]/div/input</value>
+      <webElementGuid>9a9a5b80-d5c0-4a2c-9bbe-ba413e1de478</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div[2]</value>
-      <webElementGuid>7b3c58a3-a608-4382-81c4-18f6835456a2</webElementGuid>
+      <value>//div/input</value>
+      <webElementGuid>ca259d6c-275c-4bb5-8369-6f41feeaa34d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = '
-
-                                    
-                                        Fullname
-                                        
-                                        
-                                        
-
-                                    
-
-                                                                        
-                                        Email
-                                        
-                                        
-                                    
-                                    
-                                        Phone
-                                        
-                                        
-                                            
-
-                                    
-       
-                                    
-                                        BirthDay
-                                        
-                                        
-                                                                            
-                                    
-                                        
-                                        Cancel
-                                        Save Changes
-                                    
-
-
-
-                                ' or . = '
-
-                                    
-                                        Fullname
-                                        
-                                        
-                                        
-
-                                    
-
-                                                                        
-                                        Email
-                                        
-                                        
-                                    
-                                    
-                                        Phone
-                                        
-                                        
-                                            
-
-                                    
-       
-                                    
-                                        BirthDay
-                                        
-                                        
-                                                                            
-                                    
-                                        
-                                        Cancel
-                                        Save Changes
-                                    
-
-
-
-                                ')]</value>
-      <webElementGuid>1c1494fe-5f6d-4886-ba88-52cc6d2c1efa</webElementGuid>
+      <value>//input[@type = 'text' and @name = 'name']</value>
+      <webElementGuid>904f866c-95ff-49e7-b6c9-3b6d5d28045b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
