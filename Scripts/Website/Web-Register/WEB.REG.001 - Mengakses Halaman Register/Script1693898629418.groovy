@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Website/Reuse TC/Access to Register Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_Coding.ID - Register/span_Buat Akun Baru'), 'Buat Akun Baru')
+WebUI.verifyElementText(findTestObject('Website/registerPage/txt_Buat Akun Baru'), 'Buat Akun Baru')
 
 WebUI.closeBrowser()
 
