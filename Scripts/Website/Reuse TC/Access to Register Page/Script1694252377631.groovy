@@ -21,5 +21,5 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('Page_Coding.id - Halaman Utama/button_Buat                                _86b528'))
+WebUI.click(findTestObject('Website/homePage/nav_Buat Akun'))
 
