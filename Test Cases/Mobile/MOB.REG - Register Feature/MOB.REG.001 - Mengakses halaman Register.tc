@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MOB.REG.001 - Mengakses halaman Register</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa8b5a44-015e-4c1d-a362-0ba922bde148</testCaseGuid>
+</TestCaseEntity>
