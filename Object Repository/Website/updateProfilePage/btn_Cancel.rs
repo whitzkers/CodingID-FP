@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lnk_Cancel</name>
+   <name>btn_Cancel</name>
    <tag></tag>
    <elementGuidId>75761136-cbd9-447c-adbc-42405be120a9</elementGuidId>
    <selectorCollection>
