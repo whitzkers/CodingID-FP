@@ -21,15 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('Website/homePage/nav_Masuk'))
+WebUI.click(findTestObject('Page_Coding.id - Halaman Utama/Link_Masuk'))
 
-WebUI.setText(findTestObject('Website/loginPage/form_Email'), 'rifkiauliairawan@gmail.com')
+WebUI.setText(findTestObject('Page_Coding.id - Login/input_Email'), 'rifkiauliairawan@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Website/loginPage/form_Password'), 'JCmwKw2VXH/Exv650Bd5PA==')
+WebUI.setEncryptedText(findTestObject('Page_Coding.id - Login/input_Password'), 'JCmwKw2VXH/Exv650Bd5PA==')
 
-WebUI.click(findTestObject('Website/loginPage/btn_Login'))
+WebUI.click(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login'))
 
-WebUI.click(findTestObject('Website/homePage/nav_User'))
-
-WebUI.click(findTestObject('Website/homePage/nav_My Account'))
+WebUI.navigateToUrl('https://demo-app.online/dashboard/profile/edit')
 
