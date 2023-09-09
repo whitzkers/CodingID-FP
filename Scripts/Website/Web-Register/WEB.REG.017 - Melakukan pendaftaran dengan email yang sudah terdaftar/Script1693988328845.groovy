@@ -17,29 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Website/Reuse TC/Access to Register Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://demo-app.online/')
+WebUI.setText(findTestObject('Website/registerPage/form_Nama'), 'John Doe')
 
-WebUI.click(findTestObject('Page_Coding.id - Halaman Utama/button_Buat                                _86b528'))
+WebUI.setText(findTestObject('Website/registerPage/form_Tanggal lahir'), '02-sep-2000')
 
-WebUI.setText(findTestObject('Page_Coding.ID - Register/input_Nama'), 'John Doe')
+WebUI.setText(findTestObject('Website/registerPage/form_E-Mail'), 'rifkiauliairawan@gmail.com')
 
-WebUI.setText(findTestObject('Page_Coding.ID - Register/input_Tanggal lahir'), '02-sep-2000')
+WebUI.setText(findTestObject('Website/registerPage/form_Whatsapp'), '088811112222')
 
-WebUI.setText(findTestObject('Page_Coding.ID - Register/input_E-Mail'), 'rifkiauliairawan@gmail.com')
+WebUI.setEncryptedText(findTestObject('Website/registerPage/form_Kata Sandi'), 'iFGeFYmXIrUhQZHvW7P22w==')
 
-WebUI.setText(findTestObject('Page_Coding.ID - Register/input_Whatsapp'), '088811112222')
+WebUI.setEncryptedText(findTestObject('Website/registerPage/form_Konfirmasi kata sandi'), 'iFGeFYmXIrUhQZHvW7P22w==')
 
-WebUI.setEncryptedText(findTestObject('Page_Coding.ID - Register/input_Kata Sandi'), 'iFGeFYmXIrUhQZHvW7P22w==')
+WebUI.click(findTestObject('Website/registerPage/check_Checkbox Setuju Syarat dan Ketentuan'))
 
-WebUI.setEncryptedText(findTestObject('Page_Coding.ID - Register/input_Konfirmasi kata sandi'), 'iFGeFYmXIrUhQZHvW7P22w==')
+WebUI.click(findTestObject('Website/registerPage/btn_Daftar'))
 
-WebUI.click(findTestObject('Page_Coding.ID - Register/input_Checkbox Setuju Syarat dan Ketentuan'))
-
-WebUI.click(findTestObject('Page_Coding.ID - Register/button_Daftar'))
-
-WebUI.verifyElementText(findTestObject('Page_Coding.ID - Register/Word_Email sudah terdaftar'), 'Email sudah terdaftar.')
+WebUI.verifyElementText(findTestObject('Website/registerPage/txt_Email sudah terdaftar'), 'Email sudah terdaftar.')
 
 WebUI.closeBrowser()
 
