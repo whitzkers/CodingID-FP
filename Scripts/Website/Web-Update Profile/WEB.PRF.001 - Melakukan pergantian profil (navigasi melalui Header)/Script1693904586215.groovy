@@ -17,23 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Website/Reuse TC/Navigate to Update Profile page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://demo-app.online/')
-
-WebUI.click(findTestObject('Page_Coding.id - Halaman Utama/Link_Masuk'))
-
-WebUI.setText(findTestObject('Page_Coding.id - Login/input_Email'), 'rifkiauliairawan@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('Page_Coding.id - Login/input_Password'), 'JCmwKw2VXH/Exv650Bd5PA==')
-
-WebUI.click(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login'))
-
-WebUI.click(findTestObject('Page_Coding.id - Halaman Utama/Icon_User'))
-
-WebUI.click(findTestObject('Page_Coding.id - Halaman Utama/Link_My Account'))
-
-WebUI.verifyElementText(findTestObject('Page_Coding.ID - Update Profile/Word_Fullname'), 'Fullname')
+WebUI.verifyElementText(findTestObject('Website/updateProfilePage/txt_Fullname'), 'Fullname')
 
 WebUI.closeBrowser()
 
