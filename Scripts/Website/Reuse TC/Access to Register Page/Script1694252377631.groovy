@@ -23,5 +23,3 @@ WebUI.navigateToUrl('https://demo-app.online/')
 
 WebUI.click(findTestObject('Page_Coding.id - Halaman Utama/button_Buat                                _86b528'))
 
-WebUI.verifyElementText(findTestObject('Page_Coding.ID - Register/span_Buat Akun Baru'), 'Buat Akun Baru')
-
