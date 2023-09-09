@@ -17,27 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Website/Reuse TC/Navigate to Update Profile page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://demo-app.online/')
+WebUI.setText(findTestObject('Website/updateProfilePage/form_Fullname'), 'Newer John')
 
-WebUI.click(findTestObject('Object Repository/Page_Coding.id - Halaman Utama/Link_Masuk'))
+WebUI.setText(findTestObject('Website/updateProfilePage/form_Phone'), '===')
 
-WebUI.setText(findTestObject('Object Repository/Page_Coding.id - Login/input_Email'), 'rifkiauliairawan@gmail.com')
+WebUI.click(findTestObject('Website/updateProfilePage/btn_Save Changes'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Coding.id - Login/input_Password'), 'JCmwKw2VXH/Exv650Bd5PA==')
-
-WebUI.click(findTestObject('Object Repository/Page_Coding.id - Login/button_Login'))
-
-WebUI.navigateToUrl('https://demo-app.online/dashboard/profile/edit')
-
-WebUI.setText(findTestObject('Object Repository/Page_Coding.ID - Update Profile/input_Fullname'), 'Newer John')
-
-WebUI.setText(findTestObject('Object Repository/Page_Coding.ID - Update Profile/input_Phone'), '===')
-
-WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Update Profile/button_Save Changes'))
-
-WebUI.verifyElementText(findTestObject('Page_Coding.ID - Update Profile/Word_The whatsapp must be a number'), 'The whatsapp must be a number.')
+WebUI.verifyElementText(findTestObject('Website/updateProfilePage/txt_The whatsapp must be a number'), 'The whatsapp must be a number.')
 
 WebUI.closeBrowser()
 
