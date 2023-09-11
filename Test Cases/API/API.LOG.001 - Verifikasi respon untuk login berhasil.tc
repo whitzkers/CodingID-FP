@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>API.LOG.001 - Verifikasi respon untuk login berhasil</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e9925cda-7262-43d9-b689-b7a33fc3f6f1</testCaseGuid>
+</TestCaseEntity>
