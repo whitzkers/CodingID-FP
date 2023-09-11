@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>API.PRF.003 - update whatsapp number with sign n symbol input</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e68c401d-3f2f-4d76-b8f7-bb3a160a05b2</testCaseGuid>
+</TestCaseEntity>

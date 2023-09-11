@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>API.PRF.006 - update whatsapp number exceeding the maximum digits</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>17cd7f04-0023-4f26-a242-3f6033e8a6b2</testCaseGuid>
+</TestCaseEntity>
