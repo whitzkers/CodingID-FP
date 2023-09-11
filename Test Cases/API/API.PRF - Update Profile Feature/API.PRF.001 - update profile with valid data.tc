@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>API.PRF.001 - update profile with valid data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>52b20e09-9553-4eca-87d6-aef8e59807b4</testCaseGuid>
+</TestCaseEntity>

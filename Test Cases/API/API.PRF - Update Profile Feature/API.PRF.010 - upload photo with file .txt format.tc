@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>API.PRF.010 - upload photo with file .txt format</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd8e73de-06df-46e5-a876-f8b257b212ae</testCaseGuid>
+</TestCaseEntity>

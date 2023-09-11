@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>API.LOG.003 - Verifikasi respon untuk login dengan input email kosong</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a40cb343-bd55-4479-a874-1112b25b3afc</testCaseGuid>
+</TestCaseEntity>
