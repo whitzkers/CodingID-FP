@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>WEB.PRF.008 - Menguji tombol Cancel pada halaman Edit Profil</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>6784e87a-2fdb-40f6-b857-fe7d1e227cd7</testCaseGuid>
-</TestCaseEntity>

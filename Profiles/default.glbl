@@ -4,4 +4,44 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'not.litefrost@gmail.com'</initValue>
+      <name>EmailReuse</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'jlYWSi8mxv13dCRq/gql3A=='</initValue>
+      <name>PasswordReuse</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'pasokon123@gmail.com'</initValue>
+      <name>invalEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'jlYWSi8mxv13dCRq/gql3A=='</initValue>
+      <name>invalPass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'cihek19445@hempyl.com'</initValue>
+      <name>validEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'iFGeFYmXIrUhQZHvW7P22w=='</initValue>
+      <name>validPass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'sumatun@gmail.com'</initValue>
+      <name>unveriEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'jlYWSi8mxv13dCRq/gql3A=='</initValue>
+      <name>unveriPass</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

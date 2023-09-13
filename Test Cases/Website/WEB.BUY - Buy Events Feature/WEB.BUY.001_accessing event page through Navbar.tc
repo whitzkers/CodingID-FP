@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WEB.BUY.001_accessing event page through Navbar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>becc5098-161f-4053-9e3e-77fedc7a5db0</testCaseGuid>
+</TestCaseEntity>
