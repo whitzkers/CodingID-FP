@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Website/Reuse TC/Access to Register Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Website/registerPage/form_Nama'), 'John Doe')
+WebUI.setText(findTestObject('Website/registerPage/form_Nama'), GlobalVariable.regValidName)
 
-WebUI.setText(findTestObject('Website/registerPage/form_Tanggal lahir'), '02-sep-2000')
+WebUI.setText(findTestObject('Website/registerPage/form_Tanggal lahir'), GlobalVariable.regValidDate)
 
-WebUI.setText(findTestObject('Website/registerPage/form_E-Mail'), 'abc@gm.com')
+WebUI.setText(findTestObject('Website/registerPage/form_E-Mail'), GlobalVariable.regValidEmail)
 
-WebUI.setText(findTestObject('Website/registerPage/form_Whatsapp'), '088811112222')
+WebUI.setText(findTestObject('Website/registerPage/form_Whatsapp'), GlobalVariable.regValidWhatsapp)
 
 WebUI.setEncryptedText(findTestObject('Website/registerPage/form_Kata Sandi'), 'HeCM15nHKBI=')
 
