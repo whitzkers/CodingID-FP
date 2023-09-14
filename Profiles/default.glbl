@@ -44,4 +44,34 @@
       <initValue>'jlYWSi8mxv13dCRq/gql3A=='</initValue>
       <name>unveriPass</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'John Doe'</initValue>
+      <name>regValidName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'02-sep-2010'</initValue>
+      <name>regValidDate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'abc@gm.com'</initValue>
+      <name>regValidEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'088811112222'</initValue>
+      <name>regValidWhatsapp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'iFGeFYmXIrUhQZHvW7P22w=='</initValue>
+      <name>regValidPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'iFGeFYmXIrUhQZHvW7P22w=='</initValue>
+      <name>regValidConfirmPassword</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
