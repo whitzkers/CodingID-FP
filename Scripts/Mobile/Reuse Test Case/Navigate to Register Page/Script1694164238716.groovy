@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('D:\\Users\\bsi80194\\Downloads\\DemoAppV2.apk', true)
+WebUI.callTestCase(findTestCase('Mobile/Reuse Test Case/Open App'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Mobile/homePage/btn_NavLogin'), 0)
 
