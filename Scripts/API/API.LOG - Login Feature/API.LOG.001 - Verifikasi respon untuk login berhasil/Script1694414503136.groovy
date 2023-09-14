@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def response = WS.sendRequest(findTestObject('API.LOG.001 - Verifikasi respon untuk login berhasil'))
+def response = WS.sendRequest(findTestObject('API/API.LOG - Login Feature/API.LOG.001 - Verifikasi respon untuk login berhasil'))
 
 WS.verifyResponseStatusCode(response, 200)
 
