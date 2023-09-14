@@ -35,5 +35,7 @@ WebUI.click(findTestObject('Website/registerPage/check_Checkbox Setuju Syarat da
 
 WebUI.click(findTestObject('Website/registerPage/btn_Daftar'))
 
+WebUI.verifyElementNotPresent(findTestObject('Website/emailverificationPage/txt_Verifikasi Email'), 0)
+
 WebUI.closeBrowser()
 
