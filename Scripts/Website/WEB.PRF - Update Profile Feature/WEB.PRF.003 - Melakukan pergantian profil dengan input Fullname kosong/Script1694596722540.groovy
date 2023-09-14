@@ -21,9 +21,9 @@ WebUI.callTestCase(findTestCase('Website/Reuse TC/Navigate to Update Profile pag
 
 WebUI.setText(findTestObject('Website/updateProfilePage/form_Fullname'), '')
 
-WebUI.setText(findTestObject('Website/updateProfilePage/form_Phone'), '088877776666')
+WebUI.setText(findTestObject('Website/updateProfilePage/form_Phone'), GlobalVariable.validWhatsapp)
 
-WebUI.setText(findTestObject('Website/updateProfilePage/form_Birthday'), '19-sep-2006')
+WebUI.setText(findTestObject('Website/updateProfilePage/form_Birthday'), GlobalVariable.validDate)
 
 WebUI.click(findTestObject('Website/updateProfilePage/txt_Fullname'))
 
