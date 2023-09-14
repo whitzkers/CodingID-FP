@@ -23,9 +23,9 @@ WebUI.navigateToUrl('https://demo-app.online/')
 
 WebUI.click(findTestObject('Website/homePage/nav_Masuk'))
 
-WebUI.setText(findTestObject('Website/loginPage/form_Email'), 'rifkiauliairawan@gmail.com')
+WebUI.setText(findTestObject('Website/loginPage/form_Email'), GlobalVariable.EmailReuse)
 
-WebUI.setEncryptedText(findTestObject('Website/loginPage/form_Password'), 'JCmwKw2VXH/Exv650Bd5PA==')
+WebUI.setEncryptedText(findTestObject('Website/loginPage/form_Password'), GlobalVariable.PasswordReuse)
 
 WebUI.click(findTestObject('Website/loginPage/btn_Login'))
 
