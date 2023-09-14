@@ -21,11 +21,11 @@ WebUI.callTestCase(findTestCase('Website/Reuse TC/Access to Register Page'), [:]
 
 WebUI.setText(findTestObject('Website/registerPage/form_Nama'), GlobalVariable.regValidName)
 
-WebUI.setText(findTestObject('Website/registerPage/form_Tanggal lahir'), GlobalVariable.regValidDate)
+WebUI.setText(findTestObject('Website/registerPage/form_Tanggal lahir'), GlobalVariable.validDate)
 
 WebUI.setText(findTestObject('Website/registerPage/form_E-Mail'), GlobalVariable.regValidEmail)
 
-WebUI.setText(findTestObject('Website/registerPage/form_Whatsapp'), GlobalVariable.regValidWhatsapp)
+WebUI.setText(findTestObject('Website/registerPage/form_Whatsapp'), GlobalVariable.validWhatsapp)
 
 WebUI.setEncryptedText(findTestObject('Website/registerPage/form_Kata Sandi'), GlobalVariable.regValidPassword)
 

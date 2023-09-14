@@ -52,7 +52,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'02-sep-2010'</initValue>
-      <name>regValidDate</name>
+      <name>validDate</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -62,7 +62,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'088811112222'</initValue>
-      <name>regValidWhatsapp</name>
+      <name>validWhatsapp</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

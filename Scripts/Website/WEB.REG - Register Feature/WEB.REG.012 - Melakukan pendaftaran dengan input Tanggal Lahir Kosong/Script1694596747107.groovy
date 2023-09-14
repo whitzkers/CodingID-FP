@@ -23,7 +23,7 @@ WebUI.setText(findTestObject('Website/registerPage/form_Nama'), GlobalVariable.r
 
 WebUI.setText(findTestObject('Website/registerPage/form_E-Mail'), GlobalVariable.regValidEmail)
 
-WebUI.setText(findTestObject('Website/registerPage/form_Whatsapp'), GlobalVariable.regValidWhatsapp)
+WebUI.setText(findTestObject('Website/registerPage/form_Whatsapp'), GlobalVariable.validWhatsapp)
 
 WebUI.setEncryptedText(findTestObject('Website/registerPage/form_Kata Sandi'), GlobalVariable.regValidPassword)
 
