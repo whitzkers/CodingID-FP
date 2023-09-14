@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Website/Reuse TC/Access to Register Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Website/registerPage/form_Nama'), 'John Doe')
+WebUI.setText(findTestObject('Website/registerPage/form_Nama'), GlobalVariable.regValidName)
 
-WebUI.setText(findTestObject('Website/registerPage/form_Tanggal lahir'), '02-sep-2000')
+WebUI.setText(findTestObject('Website/registerPage/form_Tanggal lahir'), GlobalVariable.regValidDate)
 
-WebUI.setText(findTestObject('Website/registerPage/form_E-Mail'), 'rifkiauliairawan@gmail.com')
+WebUI.setText(findTestObject('Website/registerPage/form_E-Mail'), GlobalVariable.EmailReuse)
 
-WebUI.setText(findTestObject('Website/registerPage/form_Whatsapp'), '088811112222')
+WebUI.setText(findTestObject('Website/registerPage/form_Whatsapp'), GlobalVariable.regValidWhatsapp)
 
-WebUI.setEncryptedText(findTestObject('Website/registerPage/form_Kata Sandi'), 'iFGeFYmXIrUhQZHvW7P22w==')
+WebUI.setEncryptedText(findTestObject('Website/registerPage/form_Kata Sandi'), GlobalVariable.regValidPassword)
 
-WebUI.setEncryptedText(findTestObject('Website/registerPage/form_Konfirmasi kata sandi'), 'iFGeFYmXIrUhQZHvW7P22w==')
+WebUI.setEncryptedText(findTestObject('Website/registerPage/form_Konfirmasi kata sandi'), GlobalVariable.regValidConfirmPassword)
 
 WebUI.click(findTestObject('Website/registerPage/check_Checkbox Setuju Syarat dan Ketentuan'))
 
