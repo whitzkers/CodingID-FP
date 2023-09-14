@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Website/Reuse TC/Navigate to Update Profile page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Website/updateProfilePage/form_Fullname'), 'New John')
+WebUI.setText(findTestObject('Website/updateProfilePage/form_Fullname'), GlobalVariable.regValidName)
 
 WebUI.setText(findTestObject('Website/updateProfilePage/form_Phone'), '')
 
-WebUI.setText(findTestObject('Website/updateProfilePage/form_Birthday'), '18-Apr-1925')
+WebUI.setText(findTestObject('Website/updateProfilePage/form_Birthday'), GlobalVariable.validDate)
 
 WebUI.click(findTestObject('Website/updateProfilePage/txt_Fullname'))
 
