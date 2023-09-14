@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Website/Reuse TC/Navigate to Update Profile page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Website/updateProfilePage/form_Fullname'), 'Newer John')
+WebUI.setText(findTestObject('Website/updateProfilePage/form_Fullname'), GlobalVariable.regValidName)
 
 WebUI.setText(findTestObject('Website/updateProfilePage/form_Phone'), '===')
 
