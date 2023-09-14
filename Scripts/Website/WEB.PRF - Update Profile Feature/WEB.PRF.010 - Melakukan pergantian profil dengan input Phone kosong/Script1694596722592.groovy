@@ -17,17 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Website/Reuse TC/Navigate to Update Profile page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://demo-app.online/')
+WebUI.setText(findTestObject('Website/updateProfilePage/form_Fullname'), GlobalVariable.regValidName)
 
-WebUI.click(findTestObject('Website/homePage/nav_Masuk'))
+WebUI.setText(findTestObject('Website/updateProfilePage/form_Phone'), '')
 
-WebUI.setText(findTestObject('Website/loginPage/form_Email'), GlobalVariable.EmailReuse)
+WebUI.setText(findTestObject('Website/updateProfilePage/form_Birthday'), GlobalVariable.validDate)
 
-WebUI.setEncryptedText(findTestObject('Website/loginPage/form_Password'), GlobalVariable.PasswordReuse)
+WebUI.click(findTestObject('Website/updateProfilePage/txt_Fullname'))
 
-WebUI.click(findTestObject('Website/loginPage/btn_Login'))
+WebUI.click(findTestObject('Website/updateProfilePage/btn_Save Changes'))
 
-WebUI.navigateToUrl('https://demo-app.online/dashboard/profile/edit')
+WebUI.verifyElementText(findTestObject('Website/updateProfilePage/txt_The whatsapp field is required'), 'The whatsapp field is required.')
+
+WebUI.closeBrowser()
 

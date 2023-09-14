@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>WEB.PRF.001 - Melakukan pergantian profil (navigasi melalui Header)</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>c6ba83d8-7e81-4907-8b59-12fa9719553c</testCaseGuid>
-</TestCaseEntity>

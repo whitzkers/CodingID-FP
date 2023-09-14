@@ -17,17 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Website/punya wiska/Homepage/btn_NavUser'))
 
-WebUI.navigateToUrl('https://demo-app.online/')
-
-WebUI.click(findTestObject('Website/homePage/nav_Masuk'))
-
-WebUI.setText(findTestObject('Website/loginPage/form_Email'), GlobalVariable.EmailReuse)
-
-WebUI.setEncryptedText(findTestObject('Website/loginPage/form_Password'), GlobalVariable.PasswordReuse)
-
-WebUI.click(findTestObject('Website/loginPage/btn_Login'))
-
-WebUI.navigateToUrl('https://demo-app.online/dashboard/profile/edit')
+WebUI.click(findTestObject('Website/punya wiska/Homepage/btn_NavCheckout'))
 

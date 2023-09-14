@@ -17,17 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Website/Reuse TC/Access to Register Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://demo-app.online/')
+WebUI.setText(findTestObject('Website/registerPage/form_Nama'), GlobalVariable.regValidName)
 
-WebUI.click(findTestObject('Website/homePage/nav_Masuk'))
+WebUI.setText(findTestObject('Website/registerPage/form_E-Mail'), GlobalVariable.regValidEmail)
 
-WebUI.setText(findTestObject('Website/loginPage/form_Email'), GlobalVariable.EmailReuse)
+WebUI.setText(findTestObject('Website/registerPage/form_Whatsapp'), GlobalVariable.validWhatsapp)
 
-WebUI.setEncryptedText(findTestObject('Website/loginPage/form_Password'), GlobalVariable.PasswordReuse)
+WebUI.setEncryptedText(findTestObject('Website/registerPage/form_Kata Sandi'), GlobalVariable.regValidPassword)
 
-WebUI.click(findTestObject('Website/loginPage/btn_Login'))
+WebUI.setEncryptedText(findTestObject('Website/registerPage/form_Konfirmasi kata sandi'), GlobalVariable.regValidConfirmPassword)
 
-WebUI.navigateToUrl('https://demo-app.online/dashboard/profile/edit')
+WebUI.click(findTestObject('Website/registerPage/check_Checkbox Setuju Syarat dan Ketentuan'))
+
+WebUI.click(findTestObject('Website/registerPage/btn_Daftar'))
+
+WebUI.verifyElementText(findTestObject('Website/registerPage/txt_Wajib di isi'), 'Wajib di isi.')
+
+WebUI.closeBrowser()
 

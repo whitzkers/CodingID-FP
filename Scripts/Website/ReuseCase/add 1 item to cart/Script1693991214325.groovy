@@ -17,17 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('ReuseCase/User Already Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://demo-app.online/')
+WebUI.click(findTestObject('Website/punya wiska/Homepage/btn_NavEvents'))
 
-WebUI.click(findTestObject('Website/homePage/nav_Masuk'))
+WebUI.click(findTestObject('Website/punya wiska/eventPage/item_Day3'))
 
-WebUI.setText(findTestObject('Website/loginPage/form_Email'), GlobalVariable.EmailReuse)
+WebUI.click(findTestObject('Website/punya wiska/day3EventPage/btn_Beli Tiket'))
 
-WebUI.setEncryptedText(findTestObject('Website/loginPage/form_Password'), GlobalVariable.PasswordReuse)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Website/loginPage/btn_Login'))
+WebUI.click(findTestObject('Website/punya wiska/day3EventPage/lnk_eventLebih'))
 
-WebUI.navigateToUrl('https://demo-app.online/dashboard/profile/edit')
+WebUI.click(findTestObject('Website/punya wiska/eventPage/item_Day4'))
+
+WebUI.click(findTestObject('Website/punya wiska/day4EventPage/a_Beli Tiket'))
+
+WebUI.verifyElementPresent(findTestObject('Website/punya wiska/day3EventPage/lnk_eventLebih'), 0)
+
+WebUI.closeBrowser()
 

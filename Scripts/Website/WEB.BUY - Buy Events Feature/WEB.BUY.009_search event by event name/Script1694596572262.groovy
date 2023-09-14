@@ -17,17 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('WEB.BUY/WEB.BUY.001_accessing event page through Navbar'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://demo-app.online/')
+WebUI.setText(findTestObject('Website/punya wiska/eventPage/form_Search'), 'Predict Using Machine Learning')
 
-WebUI.click(findTestObject('Website/homePage/nav_Masuk'))
+WebUI.sendKeys(findTestObject('Website/punya wiska/eventPage/form_Search'), Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Website/loginPage/form_Email'), GlobalVariable.EmailReuse)
+WebUI.verifyElementText(findTestObject('Website/punya wiska/eventPage/txt_Day 3 Predict using Machine Learning'), 'Day 3: Predict using Machine Learning')
 
-WebUI.setEncryptedText(findTestObject('Website/loginPage/form_Password'), GlobalVariable.PasswordReuse)
+WebUI.delay(5)
 
-WebUI.click(findTestObject('Website/loginPage/btn_Login'))
-
-WebUI.navigateToUrl('https://demo-app.online/dashboard/profile/edit')
+WebUI.closeBrowser()
 

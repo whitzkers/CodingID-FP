@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>WEB.PRF.003 - Melakukan pergantian profil dengan input Fullname kosong</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>450210e2-74bc-483d-8f3a-05255eb7d329</testCaseGuid>
-</TestCaseEntity>

@@ -21,13 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('Website/homePage/nav_Masuk'))
+WebUI.click(findTestObject('Website/punya wiska/Homepage/btn_NavMasuk'))
 
-WebUI.setText(findTestObject('Website/loginPage/form_Email'), GlobalVariable.EmailReuse)
+WebUI.setText(findTestObject('Website/punya wiska/loginPage/form_Email'), GlobalVariable.unveriEmail)
 
-WebUI.setEncryptedText(findTestObject('Website/loginPage/form_Password'), GlobalVariable.PasswordReuse)
+WebUI.setEncryptedText(findTestObject('Website/punya wiska/loginPage/form_Password'), GlobalVariable.unveriPass)
 
-WebUI.click(findTestObject('Website/loginPage/btn_Login'))
+WebUI.click(findTestObject('Website/punya wiska/loginPage/btn_Login'))
 
-WebUI.navigateToUrl('https://demo-app.online/dashboard/profile/edit')
+WebUI.click(findTestObject('Website/punya wiska/loginPage/btn_Verifikasi'))
 

@@ -17,17 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('ReuseCase/User Already Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://demo-app.online/')
+WebUI.callTestCase(findTestCase('ReuseCase/accessing checkout'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Website/homePage/nav_Masuk'))
+WebUI.check(findTestObject('Website/punya wiska/cartPage/check_Day3'))
 
-WebUI.setText(findTestObject('Website/loginPage/form_Email'), GlobalVariable.EmailReuse)
+WebUI.verifyElementChecked(findTestObject('Website/punya wiska/cartPage/check_Day3'), 0)
 
-WebUI.setEncryptedText(findTestObject('Website/loginPage/form_Password'), GlobalVariable.PasswordReuse)
+WebUI.check(findTestObject('Website/punya wiska/cartPage/check_Day4'))
 
-WebUI.click(findTestObject('Website/loginPage/btn_Login'))
+WebUI.verifyElementChecked(findTestObject('Website/punya wiska/cartPage/check_Day4'), 0)
 
-WebUI.navigateToUrl('https://demo-app.online/dashboard/profile/edit')
+WebUI.closeBrowser()
 

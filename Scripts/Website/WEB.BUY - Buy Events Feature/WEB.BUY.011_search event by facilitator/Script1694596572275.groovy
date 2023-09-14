@@ -21,13 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('Website/homePage/nav_Masuk'))
+WebUI.click(findTestObject('Website/punya wiska/Homepage/btn_NavEvents'))
 
-WebUI.setText(findTestObject('Website/loginPage/form_Email'), GlobalVariable.EmailReuse)
+WebUI.setText(findTestObject('Website/punya wiska/eventPage/form_Search'), 'Ziyad Syauqi Fawwazi')
 
-WebUI.setEncryptedText(findTestObject('Website/loginPage/form_Password'), GlobalVariable.PasswordReuse)
+WebUI.sendKeys(findTestObject('Website/punya wiska/eventPage/form_Search'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Website/loginPage/btn_Login'))
-
-WebUI.navigateToUrl('https://demo-app.online/dashboard/profile/edit')
+if (WebUI.verifyTextPresent('Day 3: Predict using Machine Learning', true)) {
+    WebUI.closeBrowser()
+}
 
