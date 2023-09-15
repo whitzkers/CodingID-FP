@@ -21,5 +21,5 @@ String path = System.getProperty('user.dir')
 
 String filePath = path + '/APK/DemoAppV2.apk'
 
-Mobile.startApplication(filePath, false)
+Mobile.startApplication(filePath, true)
 
