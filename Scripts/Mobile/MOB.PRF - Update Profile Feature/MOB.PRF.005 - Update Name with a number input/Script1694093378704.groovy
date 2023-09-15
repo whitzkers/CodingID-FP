@@ -23,7 +23,8 @@ Mobile.tap(findTestObject('Mobile/profilePage/btn_SettingProfile'), 0)
 
 Mobile.tap(findTestObject('Mobile/profilePage/btn_EditProfile'), 0)
 
-Mobile.setText(findTestObject('NEW/form_editName'), 'Ishimura123', 0)
+Mobile.setText(findTestObject('Mobile/profilePage/updateProfilePage/form_EditName'), 'Ishimura123', 
+    0)
 
 Mobile.verifyElementExist(findTestObject('Mobile/profilePage/updateProfilePage/txt_ErrorName'), 0)
 

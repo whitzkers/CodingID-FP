@@ -23,9 +23,9 @@ Mobile.tap(findTestObject('Mobile/profilePage/btn_SettingProfile'), 0)
 
 Mobile.tap(findTestObject('Mobile/profilePage/btn_EditProfile'), 0)
 
-Mobile.setText(findTestObject('NEW/form_editName'), 'Simanta Fulan', 0)
+Mobile.setText(findTestObject('Mobile/profilePage/updateProfilePage/form_EditName'), 'Simanta Fulan', 0)
 
-Mobile.setText(findTestObject('NEW/form_editPhone'), '12345678101', 0)
+Mobile.setText(findTestObject('Mobile/profilePage/updateProfilePage/form_EditWA'), '12365678192', 0)
 
 Mobile.tap(findTestObject('Mobile/profilePage/updateProfilePage/btn_SaveChanges'), 0)
 
