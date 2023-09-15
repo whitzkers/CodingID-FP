@@ -29,7 +29,7 @@ Mobile.tap(findTestObject('Mobile/loginPage/btn_Login'), 0)
 
 Mobile.closeApplication()
 
-Mobile.startApplication('D:\\Users\\bsi80196\\Downloads\\DemoAppV2.apk', true)
+WebUI.callTestCase(findTestCase('Mobile/Reuse Test Case/Open App'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Mobile/homePage/nav_Profile'), 0)
 

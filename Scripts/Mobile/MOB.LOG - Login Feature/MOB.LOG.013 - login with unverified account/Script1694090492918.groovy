@@ -21,9 +21,9 @@ WebUI.callTestCase(findTestCase('Mobile/Reuse Test Case/Open App'), [:], Failure
 
 Mobile.tap(findTestObject('Mobile/homePage/btn_NavLogin'), 0)
 
-Mobile.setText(findTestObject('Mobile/loginPage/form_Email'), GlobalVariable.unverifEmail, GlobalVariable.unverifPass)
+Mobile.setText(findTestObject('Mobile/loginPage/form_Email'), GlobalVariable.unveriEmail, 0)
 
-Mobile.setEncryptedText(findTestObject('Mobile/loginPage/form_Password'), 'jlYWSi8mxv13dCRq/gql3A==', 0)
+Mobile.setEncryptedText(findTestObject('Mobile/loginPage/form_Password'), GlobalVariable.unveriPass, 0)
 
 Mobile.tap(findTestObject('Mobile/loginPage/btn_Login'), 0)
 
