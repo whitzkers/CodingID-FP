@@ -17,17 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://demo-app.online/')
-
-WebUI.click(findTestObject('Website/punya wiska/Homepage/btn_NavEvents'))
+WebUI.callTestCase(findTestCase('Website/ReuseCase/Access Events Page without Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Website/punya wiska/eventPage/form_Search'), 'Ziyad Syauqi Fawwazi')
 
 WebUI.sendKeys(findTestObject('Website/punya wiska/eventPage/form_Search'), Keys.chord(Keys.ENTER))
 
-if (WebUI.verifyTextPresent('Day 3: Predict using Machine Learning', true)) {
-    WebUI.closeBrowser()
-}
+WebUI.verifyElementText(findTestObject('Website/punya wiska/eventPage/h3_No available event  Ziyad Syauqi Fawwazi'), 'No available event " Ziyad Syauqi Fawwazi "')
+
+WebUI.closeBrowser()
 

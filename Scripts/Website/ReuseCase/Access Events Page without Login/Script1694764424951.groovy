@@ -17,15 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Website/ReuseCase/User Already Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.callTestCase(findTestCase('Website/ReuseCase/accessing checkout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('Website/punya wiska/cartPage/btn_InvoiceDetail'))
-
-WebUI.verifyElementPresent(findTestObject('Website/punya wiska/dashboardInvoicePage/txt_Detail Invoice'), 0)
-
-WebUI.delay(1)
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Website/punya wiska/Homepage/btn_NavEvents'))
 

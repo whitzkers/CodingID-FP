@@ -17,13 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('ReuseCase/User Already Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Website/punya wiska/Homepage/btn_NavEvents'))
 
 WebUI.click(findTestObject('Website/punya wiska/eventPage/item_Day3'))
 
-WebUI.click(findTestObject('Website/punya wiska/day3EventPage/btn_Beli Tiket'))
+WebUI.click(findTestObject('Website/punya wiska/day3EventPage/a_Beli Tiket'))
 
 WebUI.delay(2)
 

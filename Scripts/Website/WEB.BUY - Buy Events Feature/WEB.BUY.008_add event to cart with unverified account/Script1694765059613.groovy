@@ -17,15 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('ReuseCase/Unverified User Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Website/ReuseCase/Unverified User Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Website/punya wiska/Homepage/btn_NavEvents'))
 
 WebUI.click(findTestObject('Website/punya wiska/eventPage/item_Day3'))
 
-WebUI.click(findTestObject('Website/punya wiska/day3EventPage/btn_Beli Tiket'))
-
-WebUI.waitForAlert(0)
+WebUI.click(findTestObject('Website/punya wiska/day3EventPage/a_Beli Tiket'))
 
 WebUI.verifyAlertPresent(0)
 
