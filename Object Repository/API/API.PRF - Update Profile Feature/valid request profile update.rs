@@ -15,7 +15,7 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
@@ -43,7 +43,7 @@
     },
     {
       &quot;name&quot;: &quot;photo&quot;,
-      &quot;value&quot;: &quot;D:\\file to be tested\\download.png&quot;,
+      &quot;value&quot;: &quot;uploadPhoto/uploadPhoto.jpg&quot;,
       &quot;type&quot;: &quot;File&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
