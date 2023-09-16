@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Day 3 Predict using Machine Learning</name>
+   <tag></tag>
+   <elementGuidId>43a6134a-e22b-4ecb-b8ae-a81979ce87ca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='blockListEvent']/a/div/div/div[2]/div/h4</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h4.headerTitle</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>565ca89d-99f6-4364-a6f0-c5c53f3ded6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>headerTitle</value>
+      <webElementGuid>15e5b816-49c1-458d-b498-58cf1a60cf9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Day 3: Predict using Machine Learning
+                                                    </value>
+      <webElementGuid>3b550f8f-cd13-4d75-9815-3f355bb20022</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;blockListEvent&quot;)/a[1]/div[@class=&quot;cardOuter&quot;]/div[@class=&quot;blockHeader&quot;]/div[@class=&quot;blockHeaderTitle&quot;]/div[@class=&quot;centerTitle&quot;]/h4[@class=&quot;headerTitle&quot;]</value>
+      <webElementGuid>73f5f25f-006f-434a-845e-86d24c43319b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='blockListEvent']/a/div/div/div[2]/div/h4</value>
+      <webElementGuid>c9da90a2-a356-44e6-a769-6443bc1de471</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Events'])[4]/following::h4[1]</value>
+      <webElementGuid>9f798179-dc18-47a7-bd71-9b9552077fbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CODING.ID Event'])[1]/following::h4[1]</value>
+      <webElementGuid>55e9afd3-2574-4ac2-bde9-84f30214fdcf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='With Ziyad Syauqi Fawwazi'])[1]/preceding::h4[1]</value>
+      <webElementGuid>6b0cb6fd-aba4-4cb4-80b7-7e7cece715c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Day 3: Predict using Machine Learning']/parent::*</value>
+      <webElementGuid>0d6e80d4-d80e-432c-a283-4b04fe708ae2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h4</value>
+      <webElementGuid>9186d599-e655-4f86-9212-970647c47b0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[(text() = 'Day 3: Predict using Machine Learning
+                                                    ' or . = 'Day 3: Predict using Machine Learning
+                                                    ')]</value>
+      <webElementGuid>5a37b360-690c-45b9-8937-f1a452661036</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

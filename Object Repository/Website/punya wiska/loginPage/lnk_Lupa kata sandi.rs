@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lnk_Lupa kata sandi</name>
+   <tag></tag>
+   <elementGuidId>b1aba44b-047c-4daa-a8d0-60acef316c40</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#buttonForgetPassTrack</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='buttonForgetPassTrack']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>396bbf82-3b20-4cdc-88c5-bab265e2bf39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>buttonForgetPassTrack</value>
+      <webElementGuid>fb5b2199-2b81-4db5-8774-ddbedae9614b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://demo-app.online/password/reset</value>
+      <webElementGuid>49577bbf-10ee-4f8f-922b-8f543c020d67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Lupa kata sandi ?</value>
+      <webElementGuid>b28030b3-c28d-4ec7-853f-e2c54d1d9e04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;buttonForgetPassTrack&quot;)</value>
+      <webElementGuid>c87d55ec-f6ac-4355-9bc7-8582e1a98c6a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='buttonForgetPassTrack']</value>
+      <webElementGuid>c17beaf8-ee57-48d7-9732-281b0e11b905</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Lupa kata sandi ?')]</value>
+      <webElementGuid>0af8d925-af2b-432c-b58d-af2f1c781fb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[2]/following::a[2]</value>
+      <webElementGuid>c9ebc021-0c1b-4f83-9eea-f3035b173a98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buat akun'])[1]/preceding::a[1]</value>
+      <webElementGuid>5ee065c9-6506-4458-a3df-34e262b3a2b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Lupa kata sandi ?']/parent::*</value>
+      <webElementGuid>2f7fdd96-2d39-479e-aa71-d7e7daff57c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://demo-app.online/password/reset')]</value>
+      <webElementGuid>997e42cf-88a5-4e44-8bb6-6cdf59950ffa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div/div/div/div/div/a</value>
+      <webElementGuid>5d5756a7-7639-4072-ac55-39923c11d98c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'buttonForgetPassTrack' and @href = 'https://demo-app.online/password/reset' and (text() = 'Lupa kata sandi ?' or . = 'Lupa kata sandi ?')]</value>
+      <webElementGuid>80acc4c7-8af7-4645-9577-ba12eecc57b3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
