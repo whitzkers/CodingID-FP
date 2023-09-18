@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Test Suite Login Feature</name>
+   <name>Update Profile Feature</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,47 +10,47 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>cb1946a7-767e-4c5d-9748-231822fcf9fc</testSuiteGuid>
+   <testSuiteGuid>b7d4695e-6da0-4d0c-a8cb-39fa10d276a2</testSuiteGuid>
    <testCaseLink>
-      <guid>6ffa8bbb-840b-40c6-9cd6-536d8a52b690</guid>
+      <guid>446bc160-89dd-40e3-995f-91c8634a8d9a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Website/WEB.LOG - Login Feature/WEB.LOG.001_accessing login page</testCaseId>
+      <testCaseId>Test Cases/Website/WEB.PRF - Update Profile Feature/WEB.PRF.001 - Melakukan pergantian profil (navigasi melalui Header)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>6e776bb4-06f5-44ba-8adb-c0a12c3039ae</guid>
+      <guid>b3595879-b23d-46d9-a0cd-7c49d8325dc6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Website/WEB.LOG - Login Feature/WEB.LOG.002_Login with valid credentials</testCaseId>
+      <testCaseId>Test Cases/Website/WEB.PRF - Update Profile Feature/WEB.PRF.002 - Melakukan pergantian profil (navigasi melalui URL)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c9d7f5ea-32c6-4d6e-8c71-13830c158ac0</guid>
+      <guid>b1fc8177-2481-4044-9eef-7f5514f8c444</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Website/WEB.LOG - Login Feature/WEB.LOG.004_accessing forgot password page</testCaseId>
+      <testCaseId>Test Cases/Website/WEB.PRF - Update Profile Feature/WEB.PRF.003 - Melakukan pergantian profil dengan input Fullname kosong</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>1aa7a26e-c8a1-4fa0-bdf7-fc082161f06c</guid>
+      <guid>fc149a02-56cd-484e-9ea3-733cb9d1b25c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Website/WEB.LOG - Login Feature/WEB.LOG.005_acessing signup page</testCaseId>
+      <testCaseId>Test Cases/Website/WEB.PRF - Update Profile Feature/WEB.PRF.004 - Melakukan penggantian profil dengan input Phone invalid</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>63584178-153d-4c8b-9621-389875d55623</guid>
+      <guid>ddc7e1b7-9bc4-4928-bf21-9e3dcfcc812c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Website/WEB.LOG - Login Feature/WEB.LOG.008_Login with invalid Credentials</testCaseId>
+      <testCaseId>Test Cases/Website/WEB.PRF - Update Profile Feature/WEB.PRF.008 - Menguji tombol Cancel pada halaman Edit Profil</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b3dc88e6-2b54-4fda-8e16-57b5518ab518</guid>
+      <guid>87465ec3-86ef-4882-b106-219b6dcf78e2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Website/WEB.LOG - Login Feature/WEB.LOG.015_Unverified User Login</testCaseId>
+      <testCaseId>Test Cases/Website/WEB.PRF - Update Profile Feature/WEB.PRF.010 - Melakukan pergantian profil dengan input Phone kosong</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
