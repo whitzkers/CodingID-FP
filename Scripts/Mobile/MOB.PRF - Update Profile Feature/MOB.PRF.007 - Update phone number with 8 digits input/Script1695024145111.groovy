@@ -27,11 +27,7 @@ Mobile.setText(findTestObject('Mobile/profilePage/updateProfilePage/form_EditWA'
 
 Mobile.tap(findTestObject('Mobile/profilePage/updateProfilePage/btn_SaveChanges'), 0)
 
-Mobile.verifyElementText(findTestObject('Mobile/profilePage/updateProfilePage/txt_SuccessUpdate'), 'Success')
-
-Mobile.tap(findTestObject('Mobile/profilePage/updateProfilePage/btn_CancelUpdate'), 0)
-
-Mobile.verifyElementText(findTestObject('Mobile/profilePage/updateProfilePage/txt_PageProfileTitle'), 'Edit Profile')
+Mobile.verifyElementText(findTestObject('Mobile/profilePage/updateProfilePage/txt_PhoneErrorMssg'), 'Number consists of 9 - 13 characters')
 
 Mobile.closeApplication()
 

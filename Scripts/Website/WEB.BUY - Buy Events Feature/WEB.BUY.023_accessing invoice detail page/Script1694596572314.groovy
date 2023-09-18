@@ -21,9 +21,13 @@ WebUI.callTestCase(findTestCase('Website/ReuseCase/User Already Login'), [:], Fa
 
 WebUI.callTestCase(findTestCase('Website/ReuseCase/accessing checkout'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.verifyElementText(findTestObject('Website/punya wiska/cartPage/h3_EVN16092300001'), 'EVN16092300001')
+
+String TitleEvent = '#' + WebUI.getText(findTestObject('Website/punya wiska/cartPage/h3_EVN16092300001'))
+
 WebUI.click(findTestObject('Website/punya wiska/cartPage/btn_InvoiceDetail'))
 
-WebUI.verifyElementPresent(findTestObject('Website/punya wiska/dashboardInvoicePage/txt_Detail Invoice'), 0)
+WebUI.verifyElementText(findTestObject('Website/punya wiska/cartPage/invoicePage_1609230001/txt_EVN16092300001'), TitleEvent)
 
 WebUI.delay(1)
 

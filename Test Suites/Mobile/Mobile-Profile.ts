@@ -29,14 +29,14 @@
       <guid>4cd8c199-68e6-4667-bb3a-5c1415770366</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MOB.PRF - Update Profile Feature/MOB.PRF.007 - Update phone number with 8 digits input</testCaseId>
+      <testCaseId>Test Cases/Mobile/MOB.PRF - Update Profile Feature/MOB.PRF.008 - Cancel save changes after updating profile</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>fa07953e-d580-49dd-a8ed-f88c6ec440f2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MOB.PRF - Update Profile Feature/MOB.PRF.008 - Cancel save changes after updating profile</testCaseId>
+      <testCaseId>Test Cases/Mobile/MOB.PRF - Update Profile Feature/MOB.PRF.007 - Update phone number with 8 digits input</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
