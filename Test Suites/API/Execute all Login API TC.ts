@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Execute all API TC</name>
+   <name>Execute all Login API TC</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -44,41 +44,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/API/API.LOG - Login Feature/API.LOG.005 - Verifikasi respon untuk login dengan akun yang belum melakukan verifikasi</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>83ed6141-2715-43b8-9e05-d2fc942ffaa1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/API/API.PRF - Update Profile Feature/API.PRF.001 - update profile with valid data</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>afa404f8-5c99-4c58-96bf-187e8c182f07</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/API/API.PRF - Update Profile Feature/API.PRF.002 - update profile with way far in the future</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>961d5e67-63fc-4f9b-b7da-0d89ab3f85ae</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/API/API.PRF - Update Profile Feature/API.PRF.003 - update whatsapp number with sign n symbol input</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>82e84de6-ef00-423c-a6df-a100336910dc</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/API/API.PRF - Update Profile Feature/API.PRF.006 - update whatsapp number exceeding the maximum digits</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d81b1223-e0f0-44d8-95f6-5b0582fb2c97</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/API/API.PRF - Update Profile Feature/API.PRF.010 - upload photo with file .txt format</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
