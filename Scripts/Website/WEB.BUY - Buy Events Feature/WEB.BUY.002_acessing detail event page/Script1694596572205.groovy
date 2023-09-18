@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://demo-app.online')
-
-WebUI.click(findTestObject('Website/punya wiska/Homepage/btn_NavEvents'))
+WebUI.callTestCase(findTestCase('Website/ReuseCase/Access Events Page without Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Website/punya wiska/eventPage/item_Day3'))
 

@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('ReuseCase/User Already Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Website/ReuseCase/User Already Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ReuseCase/accessing checkout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Website/ReuseCase/accessing checkout'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Website/punya wiska/cartPage/btn_InvoiceDetail'))
 

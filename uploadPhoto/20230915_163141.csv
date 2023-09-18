@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Update Profile,,,,2023-09-15 16:31:44,2023-09-15 16:31:54,10.028s,FAILED
+,,,,,,,
+Test Cases/API/API.PRF - Update Profile Feature/API.PRF.001 - update profile with valid data,,,,2023-09-15 16:31:44,2023-09-15 16:31:48,3.953s,PASSED
+"response = sendRequest(findTestObject(""API/API.PRF - Update Profile Feature/valid request profile update""))",,,,2023-09-15 16:31:44,2023-09-15 16:31:48,3.661s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-09-15 16:31:48,2023-09-15 16:31:48,0.012s,PASSED
+,,,,,,,
+Test Cases/API/API.PRF - Update Profile Feature/API.PRF.002 - update profile with way far in the future,,,,2023-09-15 16:31:48,2023-09-15 16:31:50,2.303s,FAILED
+"response = sendRequest(findTestObject(""API/API.PRF - Update Profile Feature/request with birth year way far in the future""))",,,,2023-09-15 16:31:48,2023-09-15 16:31:50,2.067s,PASSED
+"verifyResponseStatusCode(response, 400)",,,,2023-09-15 16:31:50,2023-09-15 16:31:50,0.025s,FAILED
+,,,,,,,
+Test Cases/API/API.PRF - Update Profile Feature/API.PRF.003 - update whatsapp number with sign n symbol input,,,,2023-09-15 16:31:50,2023-09-15 16:31:50,0.396s,FAILED
+"response = sendRequest(findTestObject(""API/API.PRF - Update Profile Feature/update whatsapp number with sign n symbol input""))",,,,2023-09-15 16:31:50,2023-09-15 16:31:50,0.174s,PASSED
+"verifyResponseStatusCode(response, 400)",,,,2023-09-15 16:31:50,2023-09-15 16:31:50,0.005s,FAILED
+,,,,,,,
+Test Cases/API/API.PRF - Update Profile Feature/API.PRF.006 - update whatsapp number exceeding the maximum digits,,,,2023-09-15 16:31:50,2023-09-15 16:31:51,0.453s,FAILED
+"response = sendRequest(findTestObject(""API/API.PRF - Update Profile Feature/update whatsapp number exceeding the maximum digit required""))",,,,2023-09-15 16:31:51,2023-09-15 16:31:51,0.186s,PASSED
+"verifyResponseStatusCode(response, 400)",,,,2023-09-15 16:31:51,2023-09-15 16:31:51,0.004s,FAILED
+,,,,,,,
+Test Cases/API/API.PRF - Update Profile Feature/API.PRF.010 - upload photo with file .txt format,,,,2023-09-15 16:31:51,2023-09-15 16:31:53,2.423s,FAILED
+"response = sendRequest(findTestObject(""API/API.PRF - Update Profile Feature/upload photo with file with .txt format""))",,,,2023-09-15 16:31:51,2023-09-15 16:31:53,2.163s,PASSED
+"verifyResponseStatusCode(response, 400)",,,,2023-09-15 16:31:53,2023-09-15 16:31:53,0.004s,FAILED

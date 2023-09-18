@@ -6,12 +6,12 @@
    <elementGuidId>e92f0b9d-4625-4273-b481-d95c1d90e474</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='containerEventInner']/h3</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#containerEventInner > h3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='containerEventInner']/h3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h3</value>
-      <webElementGuid>46b52287-fc9f-45fb-9441-e0024d846c9c</webElementGuid>
+      <webElementGuid>32729f55-4456-470a-87ec-9a4b37ab7772</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>No available event &quot; Ziyad Syauqi Fawwazi &quot;</value>
-      <webElementGuid>a786f65e-f49e-43d0-8153-aa0bdacb4e3e</webElementGuid>
+      <webElementGuid>5ef93d2f-b428-4685-8749-20598c29cbbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;containerEventInner&quot;)/h3[1]</value>
-      <webElementGuid>bec323d1-2fe3-4313-9b07-31a2bfd1424c</webElementGuid>
+      <webElementGuid>dd6313af-08cd-4369-b632-7910a0305212</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='containerEventInner']/h3</value>
-      <webElementGuid>c23abecb-08ca-41d0-bb5f-bca62fcef95c</webElementGuid>
+      <webElementGuid>5fa75451-7ca3-4546-8495-64166a42ea88</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Events'])[4]/following::h3[1]</value>
-      <webElementGuid>67c717c4-7645-4d15-81cb-c12568c94ba4</webElementGuid>
+      <webElementGuid>9ccd7b5f-9e8a-49c8-9560-f851927c06bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CODING.ID Event'])[1]/following::h3[1]</value>
-      <webElementGuid>10c66080-2643-40a8-b76d-8545f94f1abd</webElementGuid>
+      <webElementGuid>f3ce3467-5a53-46a7-af1c-66e5be582054</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Gabung CODING.ID Newsletter'])[1]/preceding::h3[1]</value>
-      <webElementGuid>397d0f7f-f602-41d9-be95-964bc557d4d6</webElementGuid>
+      <webElementGuid>336a0b55-d418-4622-97fa-a5c2eafca1cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Format email tidak valid'])[1]/preceding::h3[2]</value>
-      <webElementGuid>1e387225-3dec-4a95-af14-2026152d5741</webElementGuid>
+      <webElementGuid>445a6c6f-b15c-44d1-a6ba-166b4714f2a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='No available event &quot; Ziyad Syauqi Fawwazi &quot;']/parent::*</value>
-      <webElementGuid>8ba5016b-16a7-4bfc-9272-5d7950c68b1f</webElementGuid>
+      <webElementGuid>c8607a65-a137-4b11-bcea-33742e450e15</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/h3</value>
-      <webElementGuid>1424b850-a1b6-4843-82b6-8cb30c2f338a</webElementGuid>
+      <webElementGuid>8587ee49-d71a-4b59-abef-0d59e7bc18dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h3[(text() = 'No available event &quot; Ziyad Syauqi Fawwazi &quot;' or . = 'No available event &quot; Ziyad Syauqi Fawwazi &quot;')]</value>
-      <webElementGuid>c7e09981-2ec8-4572-ab58-384ee2ba2228</webElementGuid>
+      <webElementGuid>00de902f-f53a-4459-90e2-dd9be1ea937f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

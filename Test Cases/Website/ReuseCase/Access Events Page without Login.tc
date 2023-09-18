@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Access Events Page without Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc7ee539-7b32-44de-9795-f6560debc628</testCaseGuid>
+</TestCaseEntity>

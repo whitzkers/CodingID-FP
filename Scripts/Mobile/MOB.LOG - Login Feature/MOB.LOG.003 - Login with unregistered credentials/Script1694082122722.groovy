@@ -17,13 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('D:\\Users\\bsi80196\\Downloads\\DemoAppV2.apk', true)
+WebUI.callTestCase(findTestCase('Mobile/Reuse Test Case/Open App'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Mobile/homePage/btn_NavLogin'), 0)
 
-Mobile.setText(findTestObject('Mobile/loginPage/form_Email'), GlobalVariable.invalidEmail, 0)
+Mobile.setText(findTestObject('Mobile/loginPage/form_Email'), GlobalVariable.invalEmail, 0)
 
-Mobile.setEncryptedText(findTestObject('Mobile/loginPage/form_Password'), GlobalVariable.invalidPass, 0)
+Mobile.setEncryptedText(findTestObject('Mobile/loginPage/form_Password'), GlobalVariable.invalPass, 0)
 
 Mobile.tap(findTestObject('Mobile/loginPage/btn_Login'), 0)
 

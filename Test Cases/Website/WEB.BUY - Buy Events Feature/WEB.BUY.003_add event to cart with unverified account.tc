@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>WEB.BUY.003_add event to cart with unverified account</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>b2441034-3c21-48a6-97e3-b4325840d66f</testCaseGuid>
-</TestCaseEntity>

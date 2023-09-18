@@ -17,15 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.callTestCase(findTestCase('Reuse Test Case/User Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Mobile/Reuse Test Case/User Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Mobile/profilePage/btn_SettingProfile'), 0)
 
 Mobile.tap(findTestObject('Mobile/profilePage/btn_EditProfile'), 0)
 
-Mobile.setText(findTestObject('Mobile/profilePage/updateProfilePage/form_editPhone'), '12345678', 0)
+Mobile.setText(findTestObject('Mobile/profilePage/updateProfilePage/form_EditWA'), '12345678', 0)
 
-Mobile.verifyElementExist(findTestObject('Mobile/profilePage/updateProfilePage/txt_PhoneError'), 0)
+Mobile.tap(findTestObject('Mobile/profilePage/updateProfilePage/btn_SaveChanges'), 0)
+
+Mobile.verifyElementText(findTestObject('Mobile/profilePage/updateProfilePage/txt_SuccessUpdate'), 'Success')
+
+Mobile.tap(findTestObject('Mobile/profilePage/updateProfilePage/btn_CancelUpdate'), 0)
+
+Mobile.verifyElementText(findTestObject('Mobile/profilePage/updateProfilePage/txt_PageProfileTitle'), 'Edit Profile')
 
 Mobile.closeApplication()
 
