@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('API.LOG.005 - Verifikasi respon untuk login dengan akun yang belum melakukan verifikasi'))
+response = WS.sendRequest(findTestObject('API/API.LOG - Login Feature/API.LOG.005 - Verifikasi respon untuk login dengan akun yang belum melakukan verifikasi'))
 
 WS.verifyResponseStatusCode(response, 400)
 

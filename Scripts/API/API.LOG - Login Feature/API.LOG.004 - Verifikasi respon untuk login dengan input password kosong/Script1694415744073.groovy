@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('API.LOG.004 - Verifikasi respon untuk login dengan input password kosong'))
+response = WS.sendRequest(findTestObject('API/API.LOG - Login Feature/API.LOG.004 - Verifikasi respon untuk login dengan input password kosong'))
 
 WS.verifyResponseStatusCode(response, 401)
 
