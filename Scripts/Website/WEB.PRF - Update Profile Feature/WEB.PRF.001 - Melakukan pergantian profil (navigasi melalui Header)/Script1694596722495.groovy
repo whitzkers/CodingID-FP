@@ -21,19 +21,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('Page_Coding.id - Halaman Utama/Link_Masuk'))
+WebUI.click(findTestObject('Website/homePage/nav_Masuk'))
 
-WebUI.setText(findTestObject('Page_Coding.id - Login/input_Email'), 'rifkiauliairawan@gmail.com')
+WebUI.setText(findTestObject('Website/loginPage/form_Email'), 'rifkiauliairawan@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Page_Coding.id - Login/input_Password'), 'JCmwKw2VXH/Exv650Bd5PA==')
+WebUI.setEncryptedText(findTestObject('Website/loginPage/form_Password'), 'JCmwKw2VXH/Exv650Bd5PA==')
 
-WebUI.click(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login'))
+WebUI.click(findTestObject('Website/loginPage/btn_Login'))
 
-WebUI.click(findTestObject('Page_Coding.id - Halaman Utama/Icon_User'))
+WebUI.click(findTestObject('Website/homePage/nav_User'))
 
-WebUI.click(findTestObject('Page_Coding.id - Halaman Utama/Link_My Account'))
-
-WebUI.callTestCase(findTestCase('Website/Reuse TC/Navigate to Update Profile page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Website/homePage/nav_My Account'))
 
 WebUI.verifyElementText(findTestObject('Website/updateProfilePage/txt_Fullname'), 'Fullname')
 

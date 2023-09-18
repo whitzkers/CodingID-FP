@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('Website/updateProfilePage/form_Phone'), '088877776
 
 WebUI.setText(findTestObject('Website/updateProfilePage/form_Birthday'), '18-Apr-1925')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Website/updateProfilePage/txt_Fullname'))
 
 WebUI.click(findTestObject('Website/updateProfilePage/btn_Save Changes'))
 
