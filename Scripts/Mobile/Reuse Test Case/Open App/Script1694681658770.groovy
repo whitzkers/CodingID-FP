@@ -23,3 +23,5 @@ String filePath = path + '/APK/DemoAppV2.apk'
 
 Mobile.startApplication(filePath, true)
 
+WebUI.delay(5)
+
