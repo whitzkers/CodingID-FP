@@ -25,8 +25,6 @@ Mobile.tap(findTestObject('Mobile/profilePage/btn_EditProfile'), 0)
 
 Mobile.setText(findTestObject('Mobile/profilePage/updateProfilePage/form_EditWA'), '12345678', 0)
 
-Mobile.tap(findTestObject('Mobile/profilePage/updateProfilePage/btn_SaveChanges'), 0)
-
 Mobile.verifyElementText(findTestObject('Mobile/profilePage/updateProfilePage/txt_PhoneErrorMssg'), 'Number consists of 9 - 13 characters')
 
 Mobile.closeApplication()
