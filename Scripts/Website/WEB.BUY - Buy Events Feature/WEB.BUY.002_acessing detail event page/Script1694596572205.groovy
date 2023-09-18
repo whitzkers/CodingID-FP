@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('Website/ReuseCase/Access Events Page without Lo
 
 WebUI.click(findTestObject('Website/punya wiska/eventPage/item_Day3'))
 
-WebUI.delay(2)
+WebUI.verifyElementText(findTestObject('Website/punya wiska/day3EventPage/text_TitleEventsDay3'), 'Day 3: Predict using Machine Learning')
 
 WebUI.closeBrowser()
 

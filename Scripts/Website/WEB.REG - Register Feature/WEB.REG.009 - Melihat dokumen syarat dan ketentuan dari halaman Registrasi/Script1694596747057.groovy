@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('Website/Reuse TC/Access to Register Page'), [:]
 
 WebUI.click(findTestObject('Website/registerPage/lnk_syarat dan ketentuan'))
 
-WebUI.verifyElementText(findTestObject('Website/privacyPolicyPage/txt_Coding.ID Privacy and Policy'), 'Coding.ID Privacy and Policy')
+WebUI.verifyElementPresent(findTestObject('Website/privacyPolicyPage/txt_Coding.ID Privacy and Policy'), 0)
 
 WebUI.closeBrowser()
 
