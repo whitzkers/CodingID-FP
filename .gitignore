@@ -1,4 +1,4 @@
-*.prj
+.prj
 
 .gradle
 
@@ -80,3 +80,7 @@ $RECYCLE.BIN/
 /.settings/
 /.classpath
 .svn/
+/bin/
+/Libs/
+/.settings/
+/.classpath
